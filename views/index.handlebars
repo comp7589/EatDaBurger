@@ -1,0 +1,18 @@
+<h1>Eat-DA-BURGER!</h1>
+
+<ol>
+    {{#each burger_data}}
+    {{#unless this.devoured}}
+    <p> {{this.id}}. {{this.burger_name}} </p>
+    {{/unless}}
+    {{/each}}
+</ol>
+
+<ol>
+    {{#each burger_data}}
+    {{#if this.devoured}}
+    <p> {{this.id}}. {{this.burger_name}}</p>
+    {{/if}}
+    {{/each}}
+</ol>
+
