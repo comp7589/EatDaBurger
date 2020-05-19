@@ -1,3 +1,3 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ("mcdouble", false);
-INSERT INTO burgers (burger_name, devoured) VALUES ("impossible", false);
-INSERT INTO burgers (burger_name, devoured) VALUES ("cheese-burger", false );
+INSERT INTO burgers (burger_name, devoured) VALUES ("mcdouble");
+INSERT INTO burgers (burger_name, devoured) VALUES ("impossible");
+INSERT INTO burgers (burger_name, devoured) VALUES ("cheese-burger");
